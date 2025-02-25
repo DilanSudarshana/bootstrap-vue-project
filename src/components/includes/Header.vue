@@ -4,7 +4,9 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            <router-link to="/">
+                <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+            </router-link>
             <li><a href="#" class="nav-link px-2 text-white">Plants</a></li>
             <li><a href="#" class="nav-link px-2 text-white">Shop Now</a></li>
             <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
@@ -14,7 +16,7 @@
         <div class="text-end">
             <router-link to="/login"><button type="button"
                     class="btn btn-outline-light me-2">Login</button></router-link>
-            <button type="button" class="btn btn-warning">Sign-up</button>
+            <router-link to="/sign-up"><button type="button" class="btn btn-warning">Sign-up</button></router-link>
         </div>
     </div>
 </template>

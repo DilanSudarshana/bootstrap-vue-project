@@ -4,9 +4,9 @@
         <div class="row d-flex justify-content-center align-item-center">
             <div class="col-lg-6">
 
-                <h1 class="text-center p-5 m-5">
+                <h2 class="text-center p-4 m-4">
                     Login Here
-                </h1>
+                </h2>
 
                 <div class="mb-5 shadow-none p-3 mb-5 bg-light rounded">
                     <form>
