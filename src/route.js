@@ -2,6 +2,7 @@ import Home from './components/home/Home.vue';
 import Login from './components/login/Login.vue';
 import Register from './components/register/Register.vue';
 import Plants from './components/plants/Plants.vue';
+import ShopNow from './components/shop-now/ShopNow.vue';
 
 import {
     createRouter,
@@ -27,6 +28,11 @@ const routes = [{
         name: 'Plants',
         component: Plants,
         path: '/plants'
+    },
+    {
+        name: 'ShopNow',
+        component: ShopNow,
+        path: '/shop-now'
     }
 
 ];

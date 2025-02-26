@@ -10,9 +10,13 @@
             </router-link>
 
             <router-link to="/plants" class="text-decoration-none">
-            <li><a href="#" class="nav-link px-2 text-white">Plants</a></li></router-link>
+                <li><a href="#" class="nav-link px-2 text-white">Plants</a></li>
+            </router-link>
 
-            <li><a href="#" class="nav-link px-2 text-white">Shop Now</a></li>
+            <router-link to="/shop-now" class="text-decoration-none">
+                <li><a href="#" class="nav-link px-2 text-white">Shop Now</a></li>
+            </router-link>
+
             <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
             <li><a href="#" class="nav-link px-2 text-white">About</a></li>
         </ul>

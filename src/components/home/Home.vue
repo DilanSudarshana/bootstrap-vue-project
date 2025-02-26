@@ -6,6 +6,9 @@
                 <Hero></Hero>
             </div>
         </div>
+        <div class="row">
+            <PlantItem></PlantItem>
+        </div>
     </div>
     <Footer></Footer>
 
@@ -15,13 +18,17 @@
 import Footer from '../includes/Footer.vue';
 import Header from '../includes/Header.vue';
 import Hero from './Hero.vue';
+import PlantItem from '../plants/Plant-item.vue';
+
+
 export default {
     name: 'Home',
 
     components: {
         Header,
         Footer,
-        Hero
+        Hero,
+        PlantItem,
     },
 }
 </script>
