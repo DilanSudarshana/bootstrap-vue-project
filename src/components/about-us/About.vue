@@ -1,8 +1,10 @@
 <template>
 
-    <Header></Header>
+    <div class="container shadow-sm">
+        <div class="row">
+            <Header></Header>
+        </div>
 
-    <div class="container shadow-sm mb-5">
         <div class="row">
             <AboutHero></AboutHero>
         </div>

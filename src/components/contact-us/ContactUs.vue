@@ -1,8 +1,13 @@
 <template>
 
-    <Header></Header>
+
     <div class="container shadow-sm mb-5">
-        <ContactHero></ContactHero>
+        <div class="row">
+            <Header></Header>
+        </div>
+        <div class="row">
+            <ContactHero></ContactHero>
+        </div>
     </div>
 
     <h2 class="mt-5 text-center">Contact US</h2>

@@ -1,10 +1,13 @@
 <template>
-    <Header></Header>
+
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <Hero></Hero>
-            </div>
+            <Header></Header>
+        </div>
+        <div class="row">
+
+            <Hero></Hero>
+
         </div>
         <div class="row px-5">
             <PlantItem></PlantItem>

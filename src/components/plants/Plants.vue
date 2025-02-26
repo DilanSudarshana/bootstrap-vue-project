@@ -1,7 +1,9 @@
 <template>
-    <Header></Header>
-    
-    <div class="container mb-5 px-5">
+
+    <div class="container mb-5">
+        <div class="row">
+            <Header></Header>
+        </div>
         <div class="row">
             <PlantsHero></PlantsHero>
         </div>
