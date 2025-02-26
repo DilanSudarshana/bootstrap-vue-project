@@ -10,17 +10,20 @@
 
                 <div class="mb-5 shadow-none p-3 mb-5 bg-light rounded">
 
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" v-model="email" class="form-control" placeholder="Enter email">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" v-model="email" class="form-control" placeholder="Enter email"
+                                autocomplete="email">
 
-                    </div>
-                    <div class="form-group mb-5">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" v-model="password" class="form-control" placeholder="Password">
-                    </div>
-                    <button v-on:click="login" class="btn btn-primary">Login</button>
-
+                        </div>
+                        <div class="form-group mb-5">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" v-model="password" class="form-control" placeholder="Password"
+                                autocomplete="current-password">
+                        </div>
+                        <button v-on:click="login" class="btn btn-primary">Login</button>
+                    </form>
                 </div>
 
             </div>
@@ -36,6 +39,7 @@ import Header from '../includes/Header.vue';
 import axios from 'axios';
 
 export default {
+
     name: 'Login',
 
     data() {
@@ -45,25 +49,28 @@ export default {
         }
     },
 
+    components: {
+        Header,
+        Footer
+    },
+
     methods: {
         async login() {
             let result = await axios.get(
                 `http://localhost:3000/users?email=${this.email}&password=${this.password}`
             )
-
-            if (result.status == 200 && result.data.length > 0) {
-                localStorage.setItem("user-info", JSON.stringify(result.data[0]))
-                this.$router.push({ name: 'Home' })
-                console.log('Login sucesss')
-            } else {
-                alert('error login')
+            if (result.status == 200) {
+                console.log('done')
             }
-        }
-    },
 
-    components: {
-        Header,
-        Footer
-    },
+            // if (result.status == 200 && result.data.length > 0) {
+            //     localStorage.setItem("user-info", JSON.stringify(result.data[0]))
+            //     this.$router.push({ name: 'Home' })
+            //     console.log('Login sucesss')
+            // } else {
+            //     alert('error login')
+            // }
+        }
+    }
 }
 </script>
