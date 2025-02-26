@@ -48,7 +48,6 @@ export default {
                 alert('Thank you. We will contact you soon.')
             }
         }
-
     },
 
 }

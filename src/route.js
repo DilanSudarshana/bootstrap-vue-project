@@ -5,6 +5,7 @@ import Plants from './components/plants/Plants.vue';
 import ShopNow from './components/shop-now/ShopNow.vue';
 import ContactUs from './components/contact-us/ContactUs.vue';
 import About from './components/about-us/About.vue';
+import PlantDetailsView from './components/plant-details-view/Plant-view.vue';
 
 import {
     createRouter,
@@ -45,6 +46,11 @@ const routes = [{
         name: 'About',
         component: About,
         path: '/about-us'
+    },
+    {
+        name: 'PlantDetailsView',
+        component: PlantDetailsView,
+        path: '/plant/view'
     }
 
 ];
