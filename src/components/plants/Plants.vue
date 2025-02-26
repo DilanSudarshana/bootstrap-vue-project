@@ -1,8 +1,10 @@
 <template>
     <Header></Header>
-
-    <div class="container mt-5 mb-5 px-5">
-
+    
+    <div class="container mb-5 px-5">
+        <div class="row">
+            <PlantsHero></PlantsHero>
+        </div>
         <div class="row mt-5 mb-5">
             <h2 class="text-center">Plant Pots</h2>
         </div>
@@ -21,6 +23,8 @@
 import Footer from '../includes/Footer.vue';
 import Header from '../includes/Header.vue';
 import PlantItem from './Plant-item.vue';
+import PlantsHero from './Plants-hero.vue';
+
 
 export default {
     name: 'Plants',
@@ -29,6 +33,7 @@ export default {
         Header,
         Footer,
         PlantItem,
+        PlantsHero,
     },
 }
 </script>

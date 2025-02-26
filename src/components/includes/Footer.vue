@@ -28,9 +28,12 @@
                     <h5>My Account</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sign In</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View Cart</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">My Wishlist</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Track My Oders</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View Cart</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">My Wishlist</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Track My
+                                Oders</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a></li>
                     </ul>
                 </div>
@@ -45,6 +48,26 @@
                             <button class="btn btn-primary" type="button">Subscribe</button>
                         </div>
                     </form>
+
+                    <div class="row mt-3">
+                        <div class="col-lg-6 d-flex">
+                            <div class="m-1">
+                                <i class="bi bi-facebook"></i>
+                            </div>
+
+                            <div class="m-1">
+                                <i class="bi bi-twitter"></i>
+                            </div>
+
+                            <div class="m-1">
+                                <i class="bi bi-instagram"></i>
+                            </div>
+
+                            <div class="m-1">
+                                <i class="bi bi-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -56,6 +79,6 @@
 </template>
 <script>
 export default {
-    name:'Footer'
+    name: 'Footer'
 }
 </script>

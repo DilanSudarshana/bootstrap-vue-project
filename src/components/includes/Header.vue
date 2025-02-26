@@ -17,8 +17,14 @@
                 <li><a href="#" class="nav-link px-2 text-white">Shop Now</a></li>
             </router-link>
 
-            <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            <router-link to="/contact-us" class="text-decoration-none">
+                <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
+            </router-link>
+
+            <router-link to="/about-us" class="text-decoration-none">
+                <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </router-link>
+
         </ul>
 
         <div class="text-end">

@@ -7,7 +7,7 @@
             <SearchBar></SearchBar>
         </div>
 
-        <div class="row mt-5 mb-5 px-5">
+        <div class="row mt-5">
             <CategoryItem></CategoryItem>
         </div>
 

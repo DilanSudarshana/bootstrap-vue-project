@@ -3,6 +3,8 @@ import Login from './components/login/Login.vue';
 import Register from './components/register/Register.vue';
 import Plants from './components/plants/Plants.vue';
 import ShopNow from './components/shop-now/ShopNow.vue';
+import ContactUs from './components/contact-us/ContactUs.vue';
+import About from './components/about-us/About.vue';
 
 import {
     createRouter,
@@ -33,6 +35,16 @@ const routes = [{
         name: 'ShopNow',
         component: ShopNow,
         path: '/shop-now'
+    },
+    {
+        name: 'ContactUs',
+        component: ContactUs,
+        path: '/contact-us'
+    },
+    {
+        name: 'About',
+        component: About,
+        path: '/about-us'
     }
 
 ];

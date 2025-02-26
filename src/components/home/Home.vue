@@ -1,12 +1,12 @@
 <template>
     <Header></Header>
     <div class="container">
-        <div class="row py-5">
+        <div class="row">
             <div class="col-md-12">
                 <Hero></Hero>
             </div>
         </div>
-        <div class="row">
+        <div class="row px-5">
             <PlantItem></PlantItem>
         </div>
     </div>

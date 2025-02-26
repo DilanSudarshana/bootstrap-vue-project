@@ -44,21 +44,32 @@
       "title": "Indoor",
       "image": "https://img.freepik.com/free-photo/still-life-with-indoor-plants_23-2151024966.jpg?t=st=1740555982~exp=1740559582~hmac=be2d4f5d4aad89aaef3e710145744a7e7f37659dfa619ade374c4e5e2fb1cc49&w=740",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "price": "$100"
+      "price": "$100",
+      "Seller":"Dilan Sudarshana"
     },
     {
       "id": 2,
       "title": "Out-Door",
-      "image": "https://img.freepik.com/free-photo/still-life-with-indoor-plants_23-2151024966.jpg?t=st=1740555982~exp=1740559582~hmac=be2d4f5d4aad89aaef3e710145744a7e7f37659dfa619ade374c4e5e2fb1cc49&w=740",
+      "image": "https://img.freepik.com/free-photo/bright-landscape-spring-closeup-nature-tree_1417-992.jpg?t=st=1740559344~exp=1740562944~hmac=746f5060040ca1ffc97263213870082a91c1bdb18a1c4d4a75b74b0f8a617aef&w=1380",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "price": "$100"
+      "price": "$100",
+      "Seller":"Dilan Sudarshana"
     },
     {
       "id": 3,
       "title": "Money-Plants",
       "image": "https://img.freepik.com/free-photo/still-life-with-indoor-plants_23-2151024966.jpg?t=st=1740555982~exp=1740559582~hmac=be2d4f5d4aad89aaef3e710145744a7e7f37659dfa619ade374c4e5e2fb1cc49&w=740",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-      "price": "$100"
+      "price": "$100",
+      "Seller":"Dilan Sudarshana"
+    },
+    {
+      "id": 3,
+      "title": "Vegitable",
+      "image": "https://img.freepik.com/free-photo/still-life-with-indoor-plants_23-2151024966.jpg?t=st=1740555982~exp=1740559582~hmac=be2d4f5d4aad89aaef3e710145744a7e7f37659dfa619ade374c4e5e2fb1cc49&w=740",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "price": "$100",
+      "Seller":"Dilan Sudarshana"
     }
   ]
 }
