@@ -7,10 +7,8 @@
             <h2 class="text-center">Plant Pots</h2>
         </div>
 
-        <div id="items" class="row">
-            <div class="col-lg-3 col-sm-12 mb-5">
-                <PlantItem></PlantItem>
-            </div>
+        <div class="row">
+            <PlantItem></PlantItem>
         </div>
     </div>
 
@@ -34,11 +32,3 @@ export default {
     },
 }
 </script>
-
-<style>
-#items{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-</style>
