@@ -1,27 +1,20 @@
 <template>
     <Header></Header>
-    <div class="section-padding p-5 m-5">
-        <div class="container">
 
-            <div class="row">
-                <h2 class="text-center">Plant Pots</h2>
-            </div>
+    <div class="container mt-5 mb-5 px-5">
 
-            <div class="row">
-                <div class="col-md-4">
-                    <PlantItem></PlantItem>
-                </div>
-                <div class="col-md-4">
-                    <PlantItem></PlantItem>
-                </div>
-                <div class="col-md-4">
-                    <PlantItem></PlantItem>
-                </div>
-
-            </div>
+        <div class="row mt-5 mb-5">
+            <h2 class="text-center">Plant Pots</h2>
         </div>
 
+        <div id="items" class="row">
+            <div class="col-lg-3 col-sm-12 mb-5">
+                <PlantItem></PlantItem>
+            </div>
+        </div>
     </div>
+
+
     <Footer></Footer>
 
 </template>
@@ -41,3 +34,11 @@ export default {
     },
 }
 </script>
+
+<style>
+#items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+</style>

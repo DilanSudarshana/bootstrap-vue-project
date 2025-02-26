@@ -1,7 +1,11 @@
 <template>
     <Header></Header>
-    <div class="section-padding p-5 m-5">
-        <h1 class="p-5 mt-5">Welcome to Plant Store</h1>
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-md-12">
+                <Hero></Hero>
+            </div>
+        </div>
     </div>
     <Footer></Footer>
 
@@ -10,12 +14,14 @@
 <script>
 import Footer from '../includes/Footer.vue';
 import Header from '../includes/Header.vue';
+import Hero from './Hero.vue';
 export default {
     name: 'Home',
 
     components: {
         Header,
-        Footer
+        Footer,
+        Hero
     },
 }
 </script>

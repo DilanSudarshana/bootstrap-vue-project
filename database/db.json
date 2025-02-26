@@ -12,10 +12,24 @@
       "password": 123
     }
   ],
+
   "plants": [{
-    "id": 1,
-    "name": "Burger",
-    "contact": 11111,
-    "address": "London/uk"
-  }]
+      "id": 1,
+      "title": "Chilli",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "price": "$100"
+    },
+    {
+      "id": 2,
+      "title": "Chilli",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "price": "$100"
+    },
+    {
+      "id": 2,
+      "title": "sss",
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "price": "$100"
+    }
+  ]
 }
