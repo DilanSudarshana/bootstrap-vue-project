@@ -1,6 +1,7 @@
 import Home from './components/home/Home.vue';
 import Login from './components/login/Login.vue';
 import Register from './components/register/Register.vue';
+import Plants from './components/plants/Plants.vue';
 
 import {
     createRouter,
@@ -21,6 +22,11 @@ const routes = [{
         name: 'Register',
         component: Register,
         path: '/sign-up'
+    },
+    {
+        name: 'Plants',
+        component: Plants,
+        path: '/plants'
     }
 
 ];
