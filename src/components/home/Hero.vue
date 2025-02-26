@@ -1,7 +1,7 @@
 <template>
     <div class="container bg-warning p-5 mb-5 shadow-lg" id="hero-section">
         <div class="row">
-            <div class="col-lg-12 col-sm-12">
+            <div class="col-lg-12 col-sm-12 text-light">
                 <h4 class="pt-5">Trade-in-offer</h4>
                 <h2>Super value deals</h2>
                 <h1>On all products</h1>
