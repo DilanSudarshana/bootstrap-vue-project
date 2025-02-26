@@ -1,7 +1,7 @@
 <template>
     <div class="container bg-warning p-5 mb-5 shadow-lg" id="hero-section">
         <div class="row">
-            <div class="col-lg-12 col-sm-12">
+            <div class="col-lg-12 col-sm-12 text-light">
                 <h4 class="pt-5">Trade-in-offer</h4>
                 <h2>Super value deals</h2>
                 <h1>On all products</h1>
@@ -24,9 +24,18 @@ export default {
 </script>
 
 <style>
-#hero-section{
+#hero-section {
     background-image: url('https://img.freepik.com/free-photo/fresh-green-leaves-decorate-modern-wooden-plant-shelf-generated-by-artificial-intelligence_188544-113224.jpg?t=st=1740547062~exp=1740550662~hmac=2bf29070c946656c50e32515c57c2b62877ede0ad9d7d92cfd8ffaaa7699bd42&w=1800');
     background-repeat: no-repeat;
     height: 70vh;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    scale: 1.1;
 }
 </style>

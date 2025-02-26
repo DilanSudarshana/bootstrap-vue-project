@@ -1,5 +1,6 @@
 {
-  "users": [{
+  "users": [
+    {
       "id": "1",
       "name": "Dilan",
       "email": "d@gmail.com",
@@ -10,10 +11,16 @@
       "name": "Lakshan",
       "email": "l@gmail.com",
       "password": 123
+    },
+    {
+      "id": "92f7",
+      "name": "user01@gmail.com",
+      "password": "666",
+      "email": "user01@gmail.com"
     }
   ],
-
-  "plants": [{
+  "plants": [
+    {
       "id": 1,
       "title": "Chilli",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
@@ -38,14 +45,14 @@
       "price": "$100"
     }
   ],
-
-  "category": [{
+  "category": [
+    {
       "id": 1,
       "title": "Indoor",
       "image": "https://img.freepik.com/free-photo/still-life-with-indoor-plants_23-2151024966.jpg?t=st=1740555982~exp=1740559582~hmac=be2d4f5d4aad89aaef3e710145744a7e7f37659dfa619ade374c4e5e2fb1cc49&w=740",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
       "price": "$100",
-      "Seller":"Dilan Sudarshana"
+      "Seller": "Dilan Sudarshana"
     },
     {
       "id": 2,
@@ -53,7 +60,7 @@
       "image": "https://img.freepik.com/free-photo/bright-landscape-spring-closeup-nature-tree_1417-992.jpg?t=st=1740559344~exp=1740562944~hmac=746f5060040ca1ffc97263213870082a91c1bdb18a1c4d4a75b74b0f8a617aef&w=1380",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
       "price": "$100",
-      "Seller":"Dilan Sudarshana"
+      "Seller": "Dilan Sudarshana"
     },
     {
       "id": 3,
@@ -61,15 +68,29 @@
       "image": "https://img.freepik.com/free-photo/still-life-with-indoor-plants_23-2151024966.jpg?t=st=1740555982~exp=1740559582~hmac=be2d4f5d4aad89aaef3e710145744a7e7f37659dfa619ade374c4e5e2fb1cc49&w=740",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
       "price": "$100",
-      "Seller":"Dilan Sudarshana"
+      "Seller": "Dilan Sudarshana"
     },
     {
       "id": 3,
       "title": "Vegitable",
-      "image": "https://img.freepik.com/free-photo/still-life-with-indoor-plants_23-2151024966.jpg?t=st=1740555982~exp=1740559582~hmac=be2d4f5d4aad89aaef3e710145744a7e7f37659dfa619ade374c4e5e2fb1cc49&w=740",
+      "image": "https://img.freepik.com/free-photo/vegetables-basket-table-sunlight_268835-883.jpg?t=st=1740575293~exp=1740578893~hmac=5f5033881e60c439ef7734ba49a43f2808328b8279f67aab4b5b37ed22a21f30&w=1380",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
       "price": "$100",
-      "Seller":"Dilan Sudarshana"
+      "Seller": "Dilan Sudarshana"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "email": "Dilan",
+      "phone": "0766636521",
+      "message": "We help customers in the world’s most essential industries solve the biggest challenges of modern life."
+    },
+    {
+      "id": "b16b",
+      "email": "user01@gmail.com",
+      "phone": "",
+      "message": "Dilan sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
     }
   ]
 }

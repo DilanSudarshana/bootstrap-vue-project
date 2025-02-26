@@ -1,14 +1,12 @@
 <template>
-    <div v-for="item in catogory" :key="item.id" class="col-lg-3 col-sm-12">
-        <div class="card shadow-lg mb-5" style="width: 18rem;">
-            <img class="card-img-top"
-                :src="item.image"
-                alt="Card image cap">
+    <div v-for="item in catogory" :key="item.id" class="col-lg-3 col-sm-12 ">
+        <div id="category-item" class="card shadow-lg mb-5" style="width: 18rem;">
+            <img class="card-img-top" :src="item.image" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">{{ item.title }}</h5>
                 <p class="card-text">{{ item.desc }}</p>
                 <p class="card-text ">{{ item.Seller }}</p>
-                <a href="#" class="btn btn-primary">View More</a>
+                <a href="#" class="btn btn-primary">View More <i class="bi bi-eye"></i></a>
             </div>
         </div>
     </div>
@@ -34,8 +32,9 @@ export default {
 </script>
 
 <style>
-img{
+img {
     width: 100px;
     height: 300px;
 }
+
 </style>

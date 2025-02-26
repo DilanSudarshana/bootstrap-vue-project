@@ -1,5 +1,5 @@
 <template>
-    <div id="plant-hero" class="col-lg-12 bg-light p-5">
+    <div id="plant-hero" class="col-lg-12 bg-light p-5 text-light shadow-lg">
         <h1 class="pt-5 text-light">Discover....</h1>
         <p class="pb-5 text-light">We help customers in the world’s most essential industries solve the biggest challenges of modern life.</p>
     </div>

@@ -8,7 +8,7 @@
             <PlantsHero></PlantsHero>
         </div>
         <div class="row mt-5 mb-5">
-            <h2 class="text-center">Plant Pots</h2>
+            <h2 class="text-center">Indoor Plant</h2>
         </div>
 
         <div class="row">

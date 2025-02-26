@@ -1,7 +1,10 @@
 <template>
-    <div class="bg-dark p-2 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-        </a>
+    <div class="bg-dark p-3 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+        <div class="rounded-circle me-3"
+            style="width: 50px; height: 50px; overflow: hidden; background-color: #007bff;">
+            <img src="https://previews.123rf.com/images/andikastudio/andikastudio2003/andikastudio200300102/143158609-green-plants-logo-design-template.jpg" alt="">
+        </div>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
 
@@ -40,3 +43,15 @@ export default {
     name: 'Header'
 }
 </script>
+
+<style>
+a {
+    color: #1a1a1a;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #088178;
+    transform: scale(1.1);
+}
+</style>

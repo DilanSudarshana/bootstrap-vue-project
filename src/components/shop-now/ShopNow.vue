@@ -1,12 +1,12 @@
 <template>
-    <Header></Header>
 
-    <div class="container mt-5 mb-5 px-5">
-
-        <div class="row mt-5 mb-5">
-            <SearchBar></SearchBar>
+    <div class="container mb-5">
+        <div class="row">
+            <Header></Header>
         </div>
-
+        <div class="row">
+            <ShopNowHero></ShopNowHero>
+        </div>
         <div class="row mt-5">
             <CategoryItem></CategoryItem>
         </div>
@@ -21,8 +21,8 @@
 <script>
 import Footer from '../includes/Footer.vue';
 import Header from '../includes/Header.vue';
-import SearchBar from './Search-bar.vue';
 import CategoryItem from './Category-item.vue';
+import ShopNowHero from './ShopNowHero.vue';
 
 export default {
     name: 'ShopNow',
@@ -30,8 +30,8 @@ export default {
     components: {
         Header,
         Footer,
-        SearchBar,
         CategoryItem,
+        ShopNowHero,
     },
 }
 </script>
