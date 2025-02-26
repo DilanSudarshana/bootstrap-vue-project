@@ -11,23 +11,21 @@
                 <div class="mb-5 shadow-none p-3 mb-5 bg-light rounded">
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Enter Name">
+                            <label>Name</label>
+                            <input v-model="name" type="text" class="form-control" placeholder="Enter Name"
+                                autocomplete="username">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
+                            <label>Email address</label>
+                            <input v-model="email" type="email" class="form-control" placeholder="Enter email"
+                                autocomplete="email">
                         </div>
                         <div class="form-group mb-5">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Password">
+                            <label>Password</label>
+                            <input v-model="password" type="password" class="form-control" placeholder="Password"
+                                autocomplete="current-password">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button v-on:click="register" class="btn btn-primary">Sign Up</button>
                     </form>
                 </div>
 
@@ -41,13 +39,45 @@
 <script>
 import Footer from '../includes/Footer.vue';
 import Header from '../includes/Header.vue';
+import axios from 'axios';
 
 export default {
     name: 'Register',
+
+    data() {
+        return {
+            name: '',
+            email: '',
+            password: ''
+        }
+    },
 
     components: {
         Header,
         Footer
     },
+    methods: {
+        async register() {
+
+            let result = await axios.post("http://localhost:3000/users", {
+                name: this.name,
+                password: this.password,
+                email: this.email
+            });
+
+            if (result.status == 201) {
+                localStorage.setItem("user-info", JSON.stringify(result.data))
+                this.$router.push({ name: 'Home' })
+            } else {
+                console.log('error')
+            }
+        }
+    },
+    mounted() {
+        let user = localStorage.getItem('user-info');
+        if (user) {
+            this.$router.push({ name: 'Home' })
+        }
+    }
 }
 </script>

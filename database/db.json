@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Dilan",
+      "email": "d@gmail.com",
+      "password": 123
+    },
+    {
+      "id": "081a",
+      "name": "dilanlakshan18@gmail.com",
+      "password": "zzdcdc",
+      "email": "dilanlakshan18@gmail.com"
+    },
+    {
+      "id": "af04",
+      "name": "ggggggggg",
+      "password": "345",
+      "email": "user01@gmail.com"
+    }
+  ],
+  "plants": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "contact": 11111,
+      "address": "London/uk"
+    }
+  ]
+}
