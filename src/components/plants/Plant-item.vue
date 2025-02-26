@@ -7,7 +7,7 @@
             <div class="card-body">
                 <h5 class="card-title">{{ item.title }}</h5>
                 <p class="card-text">{{ item.desc }}</p>
-                <a href="#" class="btn btn-primary">{{ item.price }}</a>
+                <a href="#" class="btn btn-primary">{{ item.price }} <i class="bi bi-cart-plus"></i></a>
             </div>
         </div>
     </div>

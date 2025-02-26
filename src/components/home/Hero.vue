@@ -24,9 +24,18 @@ export default {
 </script>
 
 <style>
-#hero-section{
+#hero-section {
     background-image: url('https://img.freepik.com/free-photo/fresh-green-leaves-decorate-modern-wooden-plant-shelf-generated-by-artificial-intelligence_188544-113224.jpg?t=st=1740547062~exp=1740550662~hmac=2bf29070c946656c50e32515c57c2b62877ede0ad9d7d92cfd8ffaaa7699bd42&w=1800');
     background-repeat: no-repeat;
     height: 70vh;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    scale: 1.1;
 }
 </style>
