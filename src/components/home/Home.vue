@@ -1,14 +1,15 @@
 <template>
 
     <div class="container">
+
         <div class="row">
             <Header></Header>
         </div>
+
         <div class="row">
-
             <Hero></Hero>
-
         </div>
+
         <div class="row px-5">
             <PlantItem></PlantItem>
         </div>

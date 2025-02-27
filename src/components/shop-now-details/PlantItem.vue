@@ -14,8 +14,8 @@
                 </div>
             </div>
         </div>
-    </div>
 
+    </div>
 
 </template>
 
@@ -33,6 +33,17 @@ export default {
     async mounted() {
         let result = await axios.get('http://localhost:3000/plants');
         this.plants = result.data;
+
+        // let id = this.$route.params.id
+        // console.log(result)
+        // console.log(result.data.categoryType)
+
+        // if (result.data.categoryType === 1) {
+           
+        //     this.plants = result.data;
+        //     console.log(plants.data)
+        // }
+
     }
 
 }
