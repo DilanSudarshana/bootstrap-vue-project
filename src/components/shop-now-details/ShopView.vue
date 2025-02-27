@@ -15,9 +15,8 @@
         </div>
 
 
-        <div class="row mt-5 overflow-x-scroll">
-            <PlantItem></PlantItem>
-        </div>
+
+        <PlantItem></PlantItem>
 
     </div>
 
