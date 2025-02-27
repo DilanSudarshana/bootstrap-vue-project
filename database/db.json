@@ -1,6 +1,5 @@
 {
-  "users": [
-    {
+  "users": [{
       "id": "1",
       "name": "Dilan",
       "email": "d@gmail.com",
@@ -25,10 +24,10 @@
       "email": "user@gmail.com"
     }
   ],
-  "plants": [
-    {
+  "plants": [{
       "id": "1",
       "title": "Chilli",
+      "categoryType": 1,
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
       "price": "$100",
       "Seller": "Dilan Sudarshana"
@@ -36,27 +35,39 @@
     {
       "id": "2",
       "title": "Chilli",
+      "categoryType": 1,
+      "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "price": "$100",
+      "Seller": "Dilan Sudarshana"
+    },
+    {
+      "id": "3",
+      "title": "Chilli",
+      "categoryType": 2,
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
       "price": "$100",
       "Seller": "De Alswis"
     },
     {
-      "id": "3",
-      "title": "sss",
+      "id": "4",
+      "title": "Rose",
+      "categoryType": 3,
+      "category": "OutDoor",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
       "price": "$100",
       "Seller": "Dilan Sudarshana"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Money Plants",
+      "categoryType": 4,
+      "category": "Money",
       "desc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
       "price": "$100",
       "Seller": "Dilan Sudarshana"
     }
   ],
-  "category": [
-    {
+  "category": [{
       "id": "1",
       "title": "Indoor",
       "image": "https://img.freepik.com/free-photo/still-life-with-indoor-plants_23-2151024966.jpg?t=st=1740555982~exp=1740559582~hmac=be2d4f5d4aad89aaef3e710145744a7e7f37659dfa619ade374c4e5e2fb1cc49&w=740",
@@ -89,8 +100,7 @@
       "Seller": "Dilan Sudarshana"
     }
   ],
-  "contacts": [
-    {
+  "contacts": [{
       "id": "1",
       "email": "Dilan",
       "phone": "0766636521",
@@ -107,6 +117,24 @@
       "email": "anuki@gmail.com",
       "phone": "",
       "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde adipisci odio corporis, iste ea ab exercitationem non eaque accusamus nesciunt fuga iure, voluptas doloremque repellendus reprehenderit aut perspiciatis! Harum, eum pariatur magni sint, laudantium dolores delectus eaque itaque, ipsum sequi unde dolor inventore aspernatur quisquam illum nihil dolorem ipsam autem."
+    }
+
+  ],
+  "categoryType": [{
+      "id": "1",
+      "email": "Indoor"
+    },
+    {
+      "id": "2",
+      "email": "OutDoor"
+    },
+    {
+      "id": "3",
+      "email": "Money"
+    },
+    {
+      "id": "4",
+      "email": "Vegitable"
     }
   ]
 }
