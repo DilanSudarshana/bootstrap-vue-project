@@ -24,7 +24,7 @@
 <script>
 import Footer from '../includes/Footer.vue';
 import Header from '../includes/Header.vue';
-import PlantItem from './Plant-item.vue';
+import PlantItem from '../shop-now-details/PlantItem.vue';
 import PlantsHero from './Plants-hero.vue';
 
 
