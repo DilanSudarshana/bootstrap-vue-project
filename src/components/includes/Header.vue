@@ -3,7 +3,7 @@
 
         <div class="rounded-circle me-3"
             style="width: 50px; height: 50px; overflow: hidden; background-color: #007bff;">
-            <img src="https://previews.123rf.com/images/andikastudio/andikastudio2003/andikastudio200300102/143158609-green-plants-logo-design-template.jpg" alt="">
+            <img src="/src/assets/logo.png" style="width: 50px; height: 50px;" alt="">
         </div>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
