@@ -54,7 +54,6 @@ export default {
         let id=this.$route.params.id
         let result = await axios.get(`http://localhost:3000/plants/${id}`);
         this.plants = result.data;
-        console.log(this.plants)
     }
     
 }

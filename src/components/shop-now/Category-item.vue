@@ -6,7 +6,8 @@
                 <h5 class="card-title">{{ item.title }}</h5>
                 <p class="card-text">{{ item.desc }}</p>
                 <p class="card-text ">{{ item.Seller }}</p>
-                <a href="#" class="btn btn-primary">View More <i class="bi bi-eye"></i></a>
+                <router-link :to="'/shop-now/' + item.id"><a href="#" class="btn btn-primary">View More <i
+                            class="bi bi-eye"></i></a></router-link>
             </div>
         </div>
     </div>
@@ -36,5 +37,4 @@ img {
     width: 100px;
     height: 300px;
 }
-
 </style>

@@ -6,6 +6,7 @@ import ShopNow from './components/shop-now/ShopNow.vue';
 import ContactUs from './components/contact-us/ContactUs.vue';
 import About from './components/about-us/About.vue';
 import PlantDetailsView from './components/plant-details-view/Plant-view.vue';
+import ShopNowView from './components/shop-now-details/ShopView.vue';
 
 import {
     createRouter,
@@ -51,6 +52,11 @@ const routes = [{
         name: 'PlantDetailsView',
         component: PlantDetailsView,
         path: '/plant/:id'
+    },
+    {
+        name: 'ShopNowView',
+        component: ShopNowView,
+        path: '/shop-now/:id'
     }
 
 ];
