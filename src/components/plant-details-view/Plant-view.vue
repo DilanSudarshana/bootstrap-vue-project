@@ -21,7 +21,8 @@
                         Price: <span class="badge badge-success bg-success">{{ plants.price }}</span>
                     </p>
                     <p class="lead mt-4">
-                        <a class="btn btn-primary btn-sm" href="#" role="button">Buy Now <i class="bi bi-bag-plus"></i></a>
+                        <router-link :to="'/payment/' + plants.id"> <a class="btn btn-primary btn-sm"
+                                role="button">Buy Now <i class="bi bi-bag-plus"></i></a></router-link>
                     </p>
                 </div>
             </div>
@@ -51,10 +52,10 @@ export default {
     },
 
     async mounted() {
-        let id=this.$route.params.id
+        let id = this.$route.params.id
         let result = await axios.get(`http://localhost:3000/plants/${id}`);
         this.plants = result.data;
     }
-    
+
 }
 </script>

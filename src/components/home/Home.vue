@@ -10,9 +10,9 @@
             <Hero></Hero>
         </div>
 
-        <div class="row px-5">
-            <PlantItem></PlantItem>
-        </div>
+
+        <PlantItem></PlantItem>
+
     </div>
     <Footer></Footer>
 </template>
@@ -21,7 +21,7 @@
 import Footer from '../includes/Footer.vue';
 import Header from '../includes/Header.vue';
 import Hero from './Hero.vue';
-import PlantItem from '../plants/Plant-item.vue';
+import PlantItem from '../shop-now-details/PlantItem.vue';
 
 
 export default {
