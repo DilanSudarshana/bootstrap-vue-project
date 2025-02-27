@@ -7,7 +7,7 @@
             <div class="card-body">
                 <h5 class="card-title">{{ item.title }}</h5>
                 <p class="card-text">{{ item.desc }}</p>
-                <router-link to="/plant/view"><a href="#" class="btn btn-primary">{{ item.price }} <i
+                <router-link :to="'/plant/'+item.id"><a href="#" class="btn btn-primary">{{ item.price }} <i
                             class="bi bi-cart-plus"></i></a></router-link>
             </div>
         </div>
@@ -30,6 +30,5 @@ export default {
         let result = await axios.get('http://localhost:3000/plants');
         this.plants = result.data;
     }
-
 }
 </script>

@@ -50,7 +50,7 @@ const routes = [{
     {
         name: 'PlantDetailsView',
         component: PlantDetailsView,
-        path: '/plant/view'
+        path: '/plant/:id'
     }
 
 ];
