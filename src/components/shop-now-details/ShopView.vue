@@ -11,6 +11,11 @@
         </div>
 
         <div class="row mt-5">
+            <h5><i class="bi bi-tree-fill"></i> {{ catogotyName }}</h5>
+        </div>
+
+
+        <div class="row mt-5 overflow-x-scroll">
             <PlantItem></PlantItem>
         </div>
 
@@ -38,8 +43,22 @@ export default {
 
     data() {
         return {
-            plants: [],
+            catogotyName: '',
         }
     },
+    mounted() {
+        let id = this.$route.params.id
+
+        console.log(id);
+        if (id == 1) {
+            this.catogotyName = "Indoor Plants"
+        } else if (id == 2) {
+            this.catogotyName = "Out Door Plants"
+        } else if (id == 3) {
+            this.catogotyName = "Money-Plants"
+        } else {
+            this.catogotyName = "Vegitable Plants"
+        }
+    }
 }
 </script>
