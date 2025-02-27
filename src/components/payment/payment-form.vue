@@ -50,6 +50,10 @@
                     Security code required
                 </div>
             </div>
+
+            <div class="col-md-6">
+                <img class="rounded shadow-sm" style="width: 250px;height: 80px;" src="/src/assets/payment.jpg" alt="">
+            </div>
         </div>
 
         <hr class="my-4">

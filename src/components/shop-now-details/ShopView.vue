@@ -10,14 +10,13 @@
             <ShopViewHero></ShopViewHero>
         </div>
 
-        <div class="row mt-5">
+        <div class="row mt-5 mb-5">
             <h5><i class="bi bi-tree-fill"></i> {{ catogotyName }}</h5>
         </div>
 
 
-        <div class="row mt-5 overflow-x-scroll">
-            <PlantItem></PlantItem>
-        </div>
+
+        <PlantItem></PlantItem>
 
     </div>
 
@@ -49,7 +48,6 @@ export default {
     mounted() {
         let id = this.$route.params.id
 
-        console.log(id);
         if (id == 1) {
             this.catogotyName = "Indoor Plants"
         } else if (id == 2) {
