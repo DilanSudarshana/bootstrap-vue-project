@@ -7,13 +7,8 @@
         </div>
 
 
-        <div class="row">
+        <div class="row d-flex align-item-center justify-content-center mt-5">
             <PaymentForm></PaymentForm>
-        </div>
-
-
-        <div class="row px-5">
-            <PlantItem></PlantItem>
         </div>
 
 
